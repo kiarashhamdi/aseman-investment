@@ -1,0 +1,394 @@
+body {
+  background: var(--cool-gray-white, #fff);
+  backdrop-filter: blur(12px);
+}
+button {
+  all: unset;
+}
+a {
+  all: unset;
+}
+
+button:focus {
+  outline: revert;
+}
+button {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  padding-bottom: 0.5rem !important;
+  padding-top: 0.5rem !important;
+  border-radius: 10px !important;
+}
+.bordered_container {
+  border-radius: 40px 40px 0px 0px;
+  background: var(--cool-gray-white, #fff);
+  backdrop-filter: blur(12px);
+  margin-top: -40px;
+}
+
+.title-container {
+  color: var(--primary-blue-90, #0d2554);
+  text-align: right;
+  font-family: Telegraph;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+}
+
+.secondory-title {
+  color: var(--cool-gray-80, #3a4148);
+  font-family: IRANYekanX;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  max-width: 550px;
+}
+.background-image {
+  background-image: url("assets/land2.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50vh;
+}
+
+.transparent-navbar {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-custom {
+  background: transparent;
+  border: none;
+  padding: 15px;
+  box-shadow: none;
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: bold;
+  color: #000;
+  font-size: 24px;
+}
+
+.navbar-custom .navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-custom .nav-link {
+  color: #000;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #007bfc;
+}
+
+.navbar-custom .navbar-toggler {
+  border: none;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-color: #000;
+}
+
+.navbar-custom .navbar-toggler-icon::before,
+.navbar-custom .navbar-toggler-icon::after {
+  background-color: #000;
+}
+
+@media (max-width: 768px) {
+  .navbar-custom .navbar-nav {
+    display: none;
+  }
+
+  .navbar-custom .navbar-collapse.collapse.show .navbar-nav {
+    display: block;
+  }
+}
+
+.menu_button {
+  color: var(--primary-blue-60-primary, #164194);
+  font-family: IRANYekanX;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.menu-item {
+  color: var(--cool-gray-white, #fff) !important;
+  font-family: IRANYekanX;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 22px;
+}
+
+.background-image {
+  background-image: url("assets/land2.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50vh;
+}
+
+.primary-blue-btn {
+  background: var(--primary-blue-60-primary, #164194);
+  color: var(--cool-gray-white, #fff);
+  font-family: IRANYekanX;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.primary-white-btn {
+  border: 1px solid var(--primary-blue-20, #c7d1e5);
+  color: var(--cool-gray-80, #3a4148);
+  font-family: IRANYekanX;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.row {
+  --bs-gutter-x: unset !important;
+}
+
+.box-container {
+  border-radius: 0px 16px 16px 0px;
+  background: #edf2f5;
+  min-height: 552px;
+}
+
+.box-title {
+  color: var(--primary-blue-80, #102e69);
+  text-align: right;
+  font-family: Telegraph;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.price-number {
+  color: var(--cool-gray-90, #2f343a);
+  text-align: right;
+  font-family: Manshoor VF;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+.price-title {
+  color: var(--cool-gray-50, #717982);
+  text-align: center;
+  font-family: IRANYekanX;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.left-card-title {
+  color: var(--primary-blue-20, #c7d1e5);
+  text-align: center;
+  font-family: IRANYekanX;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.left-card-price {
+  color: var(--yellow-60, #ffd500);
+  text-align: center;
+  font-family: IRANYekanX;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 32px;
+}
+
+.right-card-title {
+  color: var(--primary-blue-60-primary, #164194);
+  text-align: right;
+  font-feature-settings: "ss03" on;
+  font-family: Telegraph;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.right-card-second-title {
+  color: var(--cool-gray-80, #3a4148);
+  text-align: right;
+  font-family: IRANYekanX;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.fund-title {
+  color: var(--primary-blue-60-primary, #164194);
+  text-align: center;
+  font-family: Telegraph;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.fund-second-title {
+  color: var(--cool-gray-80, #3a4148);
+  text-align: center;
+  font-family: IRANYekanX;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  max-width: 550px;
+}
+
+.small-boxes {
+  border-radius: 12px;
+  background: var(--cool-gray-white, #936464);
+  display: flex;
+  width: 264px;
+  height: 253px;
+  padding: 40px 24px 0px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.blue-box {
+  display: flex;
+  padding: var(--s-4, 4px) var(--s-xs, 16px);
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--second-blue-10, #e7f8fd);
+  min-width: 90px;
+}
+
+.yellow-box {
+  display: flex;
+  padding: var(--s-4, 4px) var(--s-xs, 16px);
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--yellow-10, #fffbe6);
+}
+
+.more-info {
+  cursor: pointer;
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+}
+
+span.more-info {
+  color: var(--cool-gray-100, #25292e);
+  font-family: IRANYekanX;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.efficiency-persent {
+  color: var(--green-70, #09a563);
+  text-align: right;
+  font-family: IRANYekanX;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px; /* 133.333% */
+}
+.efficiency-title {
+  color: var(--cool-gray-50, #717982);
+  text-align: right;
+  font-family: IRANYekanX;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 200% */
+}
+
+.center-hr {
+  width: 15%;
+  margin: auto;
+  height: 4px;
+  background: #65d4f5;
+  border: none;
+}
+
+.first-img-card {
+  background-image: url("assets/img/mountain.jpg");
+  background-size: cover;
+  max-width: 544px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.second-img-card {
+  background-image: url("assets/img/leaf.jpg");
+  background-size: cover;
+  max-width: 544px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.third-img-card {
+  background-image: url("assets/img/hands.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 544px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.forth-img-card {
+  background-image: url("assets/img/umbrella.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 544px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.card-class-title {
+  color: var(--cool-gray-white, #fff) !important;
+  text-align: right;
+  font-family: IRANYekanX;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.card-class-text {
+  color: var(--cool-grayF10, #eeeff0);
+  text-align: right;
+  font-family: IRANYekanX;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.card-container {
+  border-radius: 16px !important;
+  border: 1px solid var(--primary-blue-20, #c7d1e5) !important;
+}
+
+.arrow-btn {
+  border: white 1px solid !important;
+  border-radius: 50% !important;
+}
