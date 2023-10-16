@@ -468,7 +468,6 @@ span.more-info {
   border-bottom: unset !important;
 }
 
-
 .custom-text {
   color: var(--cool-gray-90, #2f343a);
   text-align: right;
@@ -481,6 +480,17 @@ span.more-info {
 }
 
 .custom-svg {
+  fill: #0bbbef;
+}
 
-  fill: #0BBBEF;
+.tiled {
+  background-image: url("assets/img/BGPattern.svg");
+  background-repeat: repeat;
+  background: linear-gradient(
+      180deg,
+      #fff 0%,
+      rgba(255, 255, 255, 0) 58.85%,
+      #fff 100%
+    ),
+    url("assets/img/BGPattern.svg");
 }
