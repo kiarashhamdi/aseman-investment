@@ -320,9 +320,8 @@ span.more-info {
   line-height: 24px; /* 200% */
 }
 
-.center-hr {
+.hr-container {
   width: 15%;
-  margin: auto;
   height: 4px;
   background: #65d4f5;
   border: none;
@@ -391,4 +390,97 @@ span.more-info {
 .arrow-btn {
   border: white 1px solid !important;
   border-radius: 50% !important;
+}
+
+/* Define CSS classes for styling */
+
+.main-section {
+  background: radial-gradient(
+    286.05% 106.65% at 112.71% -12.63%,
+    #004570 0%,
+    #0a2333 100%
+  );
+}
+
+.background-row {
+}
+
+.image-column {
+}
+
+.content-wrapper {
+  max-width: 455px;
+}
+
+.section-title {
+  color: var(--cool-gray-white, #fff);
+  text-align: center;
+  font-family: Telegraph;
+  font-style: normal;
+  line-height: 40px;
+}
+
+.section-description {
+  color: var(--blue-link-20, #c2def0);
+  text-align: right;
+  font-family: IRANYekanX;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.login-button {
+  border-radius: 10px;
+  background: var(--yellow-60, #ffd500);
+}
+
+.consult-button {
+  border-radius: 10px !important;
+  /* Add styles for the consult button */
+}
+
+.primary-button {
+  color: var(--primary-blue-80, #102e69);
+  font-family: IRANYekanX;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.secondary-button {
+  color: var(--cool-gray-white, #fff);
+  font-family: IRANYekanX;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.black-arrow-btn {
+  border-radius: 50% !important;
+  border: 1px solid var(--primary-blue-10, #e8ecf4) !important;
+}
+
+.closable-card {
+  background-color: unset !important;
+  border-bottom: unset !important;
+}
+
+
+.custom-text {
+  color: var(--cool-gray-90, #2f343a);
+  text-align: right;
+  font-family: IRANYekanX;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  min-width: 230px;
+}
+
+.custom-svg {
+
+  fill: #0BBBEF;
 }
