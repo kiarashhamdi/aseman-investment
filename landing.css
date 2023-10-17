@@ -373,13 +373,13 @@ span.more-info {
 }
 
 .card-class-text {
-  color: var(--cool-grayF10, #eeeff0);
+  color: var(--cool-gray-10, #eeeff0) !important;
   text-align: right;
   font-family: IRANYekanX;
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 600;
-  line-height: 22px;
+  line-height: 18px;
 }
 
 .card-container {
@@ -388,8 +388,13 @@ span.more-info {
 }
 
 .arrow-btn {
-  border: white 1px solid !important;
-  border-radius: 50% !important;
+  border-radius: 50%;
+  border: 2px #e8ecf4 ridge;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  padding: 0.25rem;
 }
 
 /* Define CSS classes for styling */
@@ -403,9 +408,13 @@ span.more-info {
 }
 
 .background-row {
+  /* background-image: url('assets/img/box-background.svg');
+  background-repeat: no-repeat; */
 }
 
 .image-column {
+  background-image: url("assets/img/box-background.svg");
+  background-repeat: no-repeat;
 }
 
 .content-wrapper {
@@ -493,4 +502,68 @@ span.more-info {
       #fff 100%
     ),
     url("assets/img/BGPattern.svg");
+}
+
+/* Add your custom CSS styles here */
+.fund-title {
+  text-align: center;
+  font-family: Telegraph;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.hr-container {
+  border-top: 2px solid var(--primary-blue-60-primary, #164194);
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.card-title {
+  color: var(--primary-blue-60-primary, #164194);
+  text-align: right;
+  font-family: Telegraph;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.card-text {
+  color: var(--cool-gray-60, #525b66);
+  text-align: justify;
+  font-family: IRANYekanX;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  max-width: 405px;
+}
+
+.card-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn-primary {
+  background-color: var(--primary-blue-60-primary, #164194);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-blue-60-hover, #0f2d63);
+}
+
+/* Apply display: flex on elements with the .flex-container class on phone-sized screens */
+@media (max-width: 575.98px) {
+  .asan-vest-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Optional: Wrap flex items when necessary */
+  }
+}
+
+.card__article {
+  border-radius: 12px;
+  background: var(--cool-gray-white, #fff);
 }
